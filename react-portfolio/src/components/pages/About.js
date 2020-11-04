@@ -2,14 +2,26 @@ import React from "react";
 
 const About = () => (
   <div>
-    <h1>About Page</h1>
-    <p>
-      Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui mauris,
-      ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus porta. Nam
-      quis arcu non lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-      imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed rhoncus mollis
-      diam, sit amet facilisis lectus blandit at.
-    </p>
+    <div className= "container">
+      <div className="text-center">
+        <h2>About Me</h2>
+      </div>
+      <p>
+        Erin Crocker is a graphic designer acquiring her certification in web
+        development through Georgia Tech's Web Development Bootcamp. With recent
+        changes in the world and economy she will use her combined skill sets to
+        become a proficient developer and designer. Her most recent work has
+        centered around HTML, CSS, and JavaScript. Learning jQuery, how to make
+        use AJAX calls, and working collaboratively with teams of other
+        developers.
+      </p>
+      <p>
+        Erin enjoys drawing and painting in her free time, as well as outdoor
+        activities such as; kayaking, biking, and hiking with her son. With her
+        boundless creativity and love of learning every challenge becomes a chance
+        to grow and become more versatile.
+      </p>
+    </div>
   </div>
 );
 
