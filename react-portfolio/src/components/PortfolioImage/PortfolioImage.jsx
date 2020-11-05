@@ -1,4 +1,4 @@
-
+import "./PortfolioImage.css";
 
 const PortfolioImage = (props) => {
   return (
@@ -8,12 +8,9 @@ const PortfolioImage = (props) => {
           <h4>{props.title}</h4>
         </div>
         <div className="card-body">
-          <h5 className="card-title">Special title treatment</h5>
-          <p className="card-text">
-            With supporting text below as a natural lead-in to additional
-            content.
-          </p>
-          <a href="#" className="btn btn-primary">
+          <img src={props.image} href={props.imageName}/>
+          <p className="card-text">{props.details}</p>
+          <a href={props.buttonLink} target="_blank" className="btn btn-primary">
             View Deployed App
           </a>
         </div>
