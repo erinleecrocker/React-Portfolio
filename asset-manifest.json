@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.9632964d.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.eb4a2edf.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.eb4a2edf.chunk.js.map",
+    "runtime-main.js": "/React-Portfolio/static/js/runtime-main.7fecb4c7.js",
+    "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.7fecb4c7.js.map",
+    "static/css/2.20aa2d7b.chunk.css": "/React-Portfolio/static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.50a1823a.chunk.js": "/React-Portfolio/static/js/2.50a1823a.chunk.js",
+    "static/js/2.50a1823a.chunk.js.map": "/React-Portfolio/static/js/2.50a1823a.chunk.js.map",
+    "static/js/3.6b6b8df0.chunk.js": "/React-Portfolio/static/js/3.6b6b8df0.chunk.js",
+    "static/js/3.6b6b8df0.chunk.js.map": "/React-Portfolio/static/js/3.6b6b8df0.chunk.js.map",
+    "index.html": "/React-Portfolio/index.html",
+    "static/css/2.20aa2d7b.chunk.css.map": "/React-Portfolio/static/css/2.20aa2d7b.chunk.css.map",
+    "static/css/main.9632964d.chunk.css.map": "/React-Portfolio/static/css/main.9632964d.chunk.css.map",
+    "static/js/2.50a1823a.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.50a1823a.chunk.js.LICENSE.txt",
+    "static/media/date-night-planner.50d584f3.png": "/React-Portfolio/static/media/date-night-planner.50d584f3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7fecb4c7.js",
+    "static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.50a1823a.chunk.js",
+    "static/css/main.9632964d.chunk.css",
+    "static/js/main.eb4a2edf.chunk.js"
+  ]
+}
