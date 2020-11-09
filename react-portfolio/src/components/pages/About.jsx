@@ -3,9 +3,10 @@ import React from "react";
 const About = () => (
   <div>
     <div className= "container">
-      <div className="text-center">
-        <h2>About Me</h2>
-      </div>
+      <div className="text-center card mt-5">
+        <h2 className="mt-4">About Me</h2>
+      
+      <div className="card-body ">
       <p>
         Erin Crocker is a graphic designer acquiring her certification in web
         development through Georgia Tech's Web Development Bootcamp. With recent
@@ -21,6 +22,8 @@ const About = () => (
         boundless creativity and love of learning every challenge becomes a chance
         to grow and become more versatile.
       </p>
+      </div>
+      </div>
     </div>
   </div>
 );

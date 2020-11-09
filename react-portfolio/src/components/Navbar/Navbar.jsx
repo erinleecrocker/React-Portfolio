@@ -1,47 +1,49 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import "./Navbar.css";
 
 function Navbar(props) {
   return (
-    <ul className="navbar navbar-dark bg-dark">
-      <li className="nav-item">
-        <a
-          href="#home"
-          onClick={() => props.handlePageChange("Home")}
-          className={props.currentPage === "Home" ? "nav-link active" : "nav-link"}
-        >
-          Erin Lee Crocker
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#about"
-          onClick={() => props.handlePageChange("About")}
-          className={props.currentPage === "About" ? "nav-link active" : "nav-link"}
-        >
-          About
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#blog"
-          onClick={() => props.handlePageChange("Blog")}
-          className={props.currentPage === "Blog" ? "nav-link active" : "nav-link"}
-        >
-          Portfolio
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#contact"
-          onClick={() => props.handlePageChange("Contact")}
-          className={props.currentPage === "Contact" ? "nav-link active" : "nav-link"}
-        >
-          Contact
-        </a>
-      </li>
-    </ul>
+    <nav className="navbar navbar-expand-md navbar-custom nav-link">
+      <a
+        className="nav-link"
+        href="/"
+        id = 'site-title'
+      >
+        Erin Lee Crocker
+      </a>
+      <button
+        className="navbar-light navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span className="navbar-toggler-icon"></span>
+      </button>
+      <div className="collapse navbar-collapse" id="navbarNav">
+        <ul className="navbar-nav ml-auto">
+          <li className="nav-item">
+            <Link className="nav-link" to="/about">
+              About
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/portfolio">
+              Portfolio
+            </Link>
+          </li>
+          <li className="nav-item">
+          <Link className="nav-link" to="/contact">
+              Contact
+            </Link>
+          </li>
+        </ul>
+      </div>
+    </nav>
   );
 }
 
 export default Navbar;
-

@@ -8,11 +8,14 @@ const PortfolioImage = (props) => {
           <h4>{props.title}</h4>
         </div>
         <div className="card-body">
-          <img src={props.image} href={props.imageName}/>
-          <p className="card-text">{props.details}</p>
-          <a href={props.buttonLink} target="_blank" className="btn btn-primary">
+          <img src={props.image} alt={props.imageName}/>
+            <p className="card-text">{props.details}</p>
+            <a href={props.gitHubLink} target="_blank" className="btn btn-primary button">
+            View GitHub Repository
+            </a>
+            <a href={props.buttonLink} target="_blank" className="btn btn-primary button">
             View Deployed App
-          </a>
+            </a>
         </div>
       </div>
     </div>

@@ -1,0 +1,33 @@
+/* navbar background color */
+.navbar {
+    background-color:rgb(27, 154, 212);
+    color: white;
+    height: 50px;
+}
+/* heading for navbar */
+.navbar-custom {
+    color: white;
+}
+.navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+/* links in navbar */
+.nav-link {
+    color: white;
+}
+/* Toggler color */
+.navbar-toggler {
+    background-color: white;
+}
+/* hover over links color */
+a:hover {
+    color: rgb(0, 118, 173);
+}
+
+ul {
+    list-style: none;
+}
+a {
+    font-size: 15pt;
+}
