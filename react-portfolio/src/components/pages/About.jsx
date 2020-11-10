@@ -2,8 +2,9 @@ import React from "react";
 import Erin from "../images/Erin-Professional-for-website.jpg";
 
 const About = () => (
+  
   <div>
-    <div className= "container">
+    <div className= "container mb-1">
       <div className="text-center card ml-auto mr-auto mt-4 w-75">
         <h2 className="mt-5">About Me</h2>
       <img className="mt-3 ml-auto mr-auto" src={Erin} alt="Erin Crocker"/>
@@ -24,7 +25,7 @@ const About = () => (
         to grow and become more versatile.
       </p>
       </div>
-      <div className="row mb-5">
+      <div className="row mb-3">
         <div className="col">
         <a href="https://www.linkedin.com/in/erinleecrocker/" target="_blank" rel="noreferrer">
           <button type="button" class="btn btn-light m-2">Linked-In</button>
@@ -39,6 +40,7 @@ const About = () => (
       </div>
       </div>
     </div>
+    <div className="row mt-5"></div>
   </div>
 );
 

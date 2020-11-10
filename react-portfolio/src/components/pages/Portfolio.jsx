@@ -5,7 +5,7 @@ import WeatherDashboard from "../images/WeatherDashboard.png";
 import WorkDayScheduler from "../images/WorkDayScheduler.png"
 
 const Portfolio = () => (
-  <div className="text-center mt-5 mb-5">
+  <div className="text-center mt-5">
     <h2 className="mb-5">PORTFOLIO</h2>
     <PortfolioImage 
       title={"The Date Night Planner"} 
@@ -30,6 +30,9 @@ const Portfolio = () => (
       details={""}
       gitHubLink={"https://github.com/erinleecrocker/Weather-Dashboard"}
       buttonLink={"https://erinleecrocker.github.io/Weather-Dashboard/"}/>
+      <div className="row mt-5">
+
+      </div>
   </div>
 );
 
