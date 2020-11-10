@@ -7,6 +7,7 @@ function Navbar(props) {
     <nav className="navbar navbar-expand-md navbar-custom nav-link">
       <a
         className="nav-link"
+        to="/"
         href="/"
         id = 'site-title'
       >
